@@ -1,0 +1,53 @@
+@import 'config';
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@mixin FlexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    font-family:'Outfit', sans-serif;
+    font-size: 15px;
+    background-color: $Light-gray;
+    height: 100vh;
+}
+
+main{
+    @include FlexCenter();
+    height: 100%;
+
+
+    .card{
+        background-color: $White;
+        text-align: center;
+        width: 320px;
+        height: 497px;
+        border-radius: 20px;
+        box-shadow: 0px 25px 25px hsl(0,0,0,0.0477);
+
+        img{
+            width: 288px;
+            height: 288px;
+            border-radius: 10px;
+            margin: 16px;
+
+        }
+
+        h1{
+            color: $Dark-blue;
+            font-size: 22px;
+            margin: 0px 16px 16px 16px;
+            font-weight: 700;
+        }
+
+        p{
+            color: $Grayish-blue;
+            font-weight: 400;
+            margin: 0px 28px 0px 28px;
+        }
+    }
+}
+
+
