@@ -7,39 +7,39 @@
 
 body {
   font-family: "Outfit", sans-serif;
-  font-size: 15px;
   background-color: hsl(212, 45%, 89%);
-  height: 100vh;
-}
-
-main {
+  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
 }
-main .card {
+
+main {
+  margin: 8rem 0;
+}
+main section {
   background-color: hsl(0, 0%, 100%);
   text-align: center;
-  width: 320px;
-  height: 497px;
+  max-width: 320px;
   border-radius: 20px;
+  padding: 0.75rem 0.75rem;
   box-shadow: 0px 25px 25px hsla(0, 0%, 0%, 0.0477);
 }
-main .card img {
-  width: 288px;
-  height: 288px;
-  border-radius: 10px;
-  margin: 16px;
+main section img {
+  max-width: 100%;
+  max-height: 288px;
+  border-radius: 5%;
+  margin-top: 0.25rem;
 }
-main .card h1 {
+main section h1 {
   color: hsl(218, 44%, 22%);
-  font-size: 22px;
-  margin: 0px 16px 16px 16px;
+  font-size: 1.375rem;
   font-weight: 700;
+  margin: 1rem;
 }
-main .card p {
+main section p {
   color: hsl(220, 15%, 55%);
+  padding: 0 1rem;
+  margin-bottom: 1rem;
   font-weight: 400;
-  margin: 0px 26px 0px 26px;
 }/*# sourceMappingURL=main.css.map */
