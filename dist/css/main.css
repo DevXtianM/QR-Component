@@ -9,13 +9,14 @@ body {
   font-family: "Outfit", sans-serif;
   background-color: hsl(212, 45%, 89%);
   overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 100vh;
 }
 
 main {
-  margin: 8rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 main section {
   background-color: hsl(0, 0%, 100%);
